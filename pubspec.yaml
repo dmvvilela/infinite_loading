@@ -1,8 +1,7 @@
 name: infinite_loading
-description: A new Flutter package project.
+description: A Flutter package for rendering an infinite loading widget.
 version: 0.0.1
-author:
-homepage:
+repository: https://github.com/dmvvilela/infinite_loading
 
 environment:
   sdk: ">=2.7.0 <3.0.0"
