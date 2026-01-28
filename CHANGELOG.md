@@ -1,3 +1,9 @@
+## 1.0.1
+
+- Fix README demo gifs not rendering on pub.dev
+- Add example app project files
+- Fix example app button overflow
+
 ## 1.0.0 - Major Upgrade
 
 ### Breaking Changes
