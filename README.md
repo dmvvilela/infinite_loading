@@ -9,7 +9,7 @@ A modern Flutter package for rendering a highly customizable infinite oscillatin
 
 | Success | Error | Variations |
 |---------|-------|------------|
-| ![Success](assets/gifs/success.gif) | ![Error](assets/gifs/error.gif) | ![Variations](assets/gifs/variations.gif) |
+| ![Success](https://raw.githubusercontent.com/dmvvilela/infinite_loading/master/assets/gifs/success.gif) | ![Error](https://raw.githubusercontent.com/dmvvilela/infinite_loading/master/assets/gifs/error.gif) | ![Variations](https://raw.githubusercontent.com/dmvvilela/infinite_loading/master/assets/gifs/variations.gif) |
 
 ## Features
 
