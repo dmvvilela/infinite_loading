@@ -115,17 +115,21 @@ class _MyHomePageState extends State<MyHomePage> {
                         child: Text('Click "Start Loading" to begin'),
                       ),
                     const SizedBox(height: 20),
+                    Center(
+                      child: ElevatedButton(
+                        onPressed: _isLoading ? null : _startLoading,
+                        child: const Text('Start Loading'),
+                      ),
+                    ),
+                    const SizedBox(height: 12),
                     Row(
                       mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                       children: [
                         ElevatedButton(
-                          onPressed: _isLoading ? null : _startLoading,
-                          child: const Text('Start Loading'),
-                        ),
-                        ElevatedButton(
-                          onPressed: (_isLoading && _completeWithSuccess == null)
-                              ? _completeSuccess
-                              : null,
+                          onPressed:
+                              (_isLoading && _completeWithSuccess == null)
+                                  ? _completeSuccess
+                                  : null,
                           style: ElevatedButton.styleFrom(
                             backgroundColor: Colors.green,
                             foregroundColor: Colors.white,
@@ -133,9 +137,10 @@ class _MyHomePageState extends State<MyHomePage> {
                           child: const Text('Success'),
                         ),
                         ElevatedButton(
-                          onPressed: (_isLoading && _completeWithSuccess == null)
-                              ? _completeError
-                              : null,
+                          onPressed:
+                              (_isLoading && _completeWithSuccess == null)
+                                  ? _completeError
+                                  : null,
                           style: ElevatedButton.styleFrom(
                             backgroundColor: Colors.red,
                             foregroundColor: Colors.white,

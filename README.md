@@ -5,6 +5,12 @@ A modern Flutter package for rendering a highly customizable infinite oscillatin
 ![Flutter](https://img.shields.io/badge/Flutter-3.0+-blue.svg)
 ![Dart](https://img.shields.io/badge/Dart-3.0+-blue.svg)
 
+## Demo
+
+| Success | Error | Variations |
+|---------|-------|------------|
+| ![Success](assets/gifs/success.gif) | ![Error](assets/gifs/error.gif) | ![Variations](assets/gifs/variations.gif) |
+
 ## Features
 
 ✨ **Smooth Oscillating Animation** - A progress bar that moves back and forth infinitely (left-right-left)
