@@ -1,0 +1,7 @@
+assets/gifs/*.mp4
+assets/images/
+.idea/
+.DS_Store
+*.iml
+.packages
+.metadata

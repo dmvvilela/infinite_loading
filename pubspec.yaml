@@ -2,6 +2,14 @@ name: infinite_loading
 description: A Flutter package for rendering an infinite oscillating loading widget with smooth completion animations.
 version: 1.0.0
 repository: https://github.com/dmvvilela/infinite_loading
+issue_tracker: https://github.com/dmvvilela/infinite_loading/issues
+homepage: https://github.com/dmvvilela/infinite_loading
+
+topics:
+  - loading
+  - animation
+  - progress
+  - widget
 
 environment:
   sdk: ">=3.0.0 <4.0.0"
